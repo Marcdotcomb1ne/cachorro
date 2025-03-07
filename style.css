@@ -1,0 +1,64 @@
+html, body{
+    background-color: white;
+    font-family: 'Inter';
+    color: rgb(24, 8, 255);
+    margin: 0 auto; 
+}
+
+header{
+    text-align: center;
+}
+
+@keyframes cavalo{
+    0% {margin-top: 100px}
+    50% {margin-top: 200px}
+    100% {margin-top: 100px}
+}
+main{
+    text-align: center;
+    margin-top: 100px;
+    animation-name: cavalo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+h1#titulo{
+    background-color: transparent;
+    border: 1px;
+    border-color: blue;
+    border-width: 100%;
+    border-style: solid;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  
+}
+li{
+    display: inline;
+    background-color: gray;
+    padding: 15px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(106, 107, 107);
+    border-width: 4px;
+    margin: 15px;
+    
+}
+li a{
+    text-decoration: none;
+    margin: 10px;
+    color: blue;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+    transition: .4s;
+}
+li:hover{
+    background-color: yellow;
+    transition: .4s;
+}
