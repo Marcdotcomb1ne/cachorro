@@ -58,6 +58,13 @@ a:hover{
     color: rgb(255, 0, 0);
     transition: .4s;
 }
+a:active{
+    color: rgb(250, 0, 0);
+}
+a:visited{
+    color: rgb(200, 0, 0);
+}
+
 li:hover{
     background-color: yellow;
     transition: .4s;
